@@ -10,11 +10,11 @@ Create a simple project using any open source tools, to test the following:
 
 
 == Project Layout
-                com.mergermarkets.test.ui.cucumber : Cucucmber classes RunCkes and Hook
-                com.mergermarkets.test.ui.stepdefinitions : The step definiton Class
-                com.mergermarkets.test.ui.support :Driver initialization and Launch the page
-                com.mergermarkets.test.ui.pages : The Basket and Search pages
-                src/test/resources/features : Where the feature file with scenarios resides
+com.mergermarkets.test.ui.cucumber : Cucucmber classes RunCkes and Hook
+com.mergermarkets.test.ui.stepdefinitions : The step definiton Class
+com.mergermarkets.test.ui.support :Driver initialization and Launch the page
+com.mergermarkets.test.ui.pages : The Basket and Search pages
+src/test/resources/features : Where the feature file with scenarios resides
 
 == Prerequisites
 
