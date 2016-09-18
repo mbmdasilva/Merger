@@ -11,6 +11,6 @@ Feature: Basket
 
   Scenario: Add an iPhone accessory to the basket
     Given I am on the Amazon page
-    And  I search for the cheapest "iPhone accessory"
-    When I add "iPhone accessory" to the basket
+    When  I search for  "iPhone accessory"
+    And I add "iPhone accessory" to the basket
     Then I assert the total amount in the basket

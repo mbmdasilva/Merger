@@ -50,7 +50,7 @@ public class BasketPage extends Driver {
     public void editBasket() {
         editBasket.click();
     }
-
+  //Assertion for when basket is updated with IPhone
     public void assertBasketUpdated() {
         editBasket();
         subTotal = subTotalBasket.getText();
@@ -58,7 +58,7 @@ public class BasketPage extends Driver {
         assertThat(subTotal, containsString(priceOne));
 
     }
-
+  //Assertion for when the basket is updated with accessory after it has an Iphone
     public void assertBasketTotal() {
         editBasket();
 

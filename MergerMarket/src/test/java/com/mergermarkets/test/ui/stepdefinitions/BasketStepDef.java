@@ -17,8 +17,13 @@ public class BasketStepDef {
     }
 
     @When("^I search for the cheapest \"([^\"]*)\"$")
-    public void i_search_for_the_cheapest(String item)  {
-        searchPage.searchItem(item);
+    public void i_search_for_the_cheapest(String iPhone)  {
+        searchPage.searchItem(iPhone);
+    }
+
+    @When("^I search for  \"([^\"]*)\"$")
+    public void i_search_for(String accessory )  {
+        searchPage.searchAccessory(accessory);
     }
 
     @When("^I add \"([^\"]*)\" to the basket$")

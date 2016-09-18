@@ -41,10 +41,8 @@ public class SearchPage extends Driver {
     public SearchPage() {
         PageFactory.initElements(driver, this);
     }
-
+   //Search for Iphone
     public void searchItem(String item) {
-
-        if (item.equalsIgnoreCase("IPhone 4s")) {
             searchBox.clear();
             searchBox.sendKeys(item);
             searchButton.click();
@@ -56,17 +54,17 @@ public class SearchPage extends Driver {
             sortByLowToHigh.click();
             wait.until(ExpectedConditions.visibilityOf((clickFirstItem)));
             clickFirstItem.click();
-        } else if (item.equalsIgnoreCase("iPhone accessory")) {
+        }
+   //search for acessory
+    public  void searchAccessory(String accessory){
             searchBox.clear();
-            searchBox.sendKeys(item);
+            searchBox.sendKeys(accessory);
             searchButton.click();
             wait.until(ExpectedConditions.visibilityOf((brandSelectorSennheiser)));
             brandSelectorSennheiser.click();
             wait.until(ExpectedConditions.visibilityOf((clickFirstItem)));
             clickFirstItem.click();
         }
-
-    }
 
 }
 

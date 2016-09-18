@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 558921325,
+  "duration": 501551167,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,7 +48,7 @@ formatter.match({
   "location": "BasketStepDef.i_am_on_the_Amazon_page()"
 });
 formatter.result({
-  "duration": 8529626271,
+  "duration": 9433205487,
   "status": "passed"
 });
 formatter.match({
@@ -61,7 +61,7 @@ formatter.match({
   "location": "BasketStepDef.i_search_for_the_cheapest(String)"
 });
 formatter.result({
-  "duration": 12425623526,
+  "duration": 9987007259,
   "status": "passed"
 });
 formatter.match({
@@ -74,22 +74,22 @@ formatter.match({
   "location": "BasketStepDef.i_add_to_the_basket(String)"
 });
 formatter.result({
-  "duration": 3435774497,
+  "duration": 3844379197,
   "status": "passed"
 });
 formatter.match({
   "location": "BasketStepDef.i_assert_the_basket_has_been_updated()"
 });
 formatter.result({
-  "duration": 3311593804,
+  "duration": 3040040049,
   "status": "passed"
 });
 formatter.after({
-  "duration": 101316,
+  "duration": 197563,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38562527,
+  "duration": 59703424,
   "status": "passed"
 });
 formatter.scenario({
@@ -107,13 +107,13 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "I search for the cheapest \"iPhone accessory\"",
-  "keyword": "And "
+  "name": "I search for  \"iPhone accessory\"",
+  "keyword": "When "
 });
 formatter.step({
   "line": 15,
   "name": "I add \"iPhone accessory\" to the basket",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 16,
@@ -124,20 +124,20 @@ formatter.match({
   "location": "BasketStepDef.i_am_on_the_Amazon_page()"
 });
 formatter.result({
-  "duration": 74754169,
+  "duration": 2155007558,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "iPhone accessory",
-      "offset": 27
+      "offset": 15
     }
   ],
-  "location": "BasketStepDef.i_search_for_the_cheapest(String)"
+  "location": "BasketStepDef.i_search_for(String)"
 });
 formatter.result({
-  "duration": 10967983799,
+  "duration": 11524614614,
   "status": "passed"
 });
 formatter.match({
@@ -150,18 +150,18 @@ formatter.match({
   "location": "BasketStepDef.i_add_to_the_basket(String)"
 });
 formatter.result({
-  "duration": 3444306195,
+  "duration": 1981234212,
   "status": "passed"
 });
 formatter.match({
   "location": "BasketStepDef.i_assert_the_total_amount_in_the_basket()"
 });
 formatter.result({
-  "duration": 3032231535,
+  "duration": 1776117546,
   "status": "passed"
 });
 formatter.after({
-  "duration": 50366,
+  "duration": 30512,
   "status": "passed"
 });
 });
