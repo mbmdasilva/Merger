@@ -31,3 +31,6 @@ src/test/resources/features : Where the feature file with scenarios resides
 
 Firefox version 43.0 (Been having some issues with driver version 2.53.1 and FF driver 48 the version 43 seems most reliable)
 
+== Command Line
+
+To run in the command line : mvn clean install ( Need to be in the same directory where the code is located)
