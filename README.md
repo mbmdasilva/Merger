@@ -3,9 +3,13 @@
 == Introduction
 
 Create a simple project using any open source tools, to test the following:
+
 1. Go to Amazon and search for an iPhone and add the cheapest phone to the basket.
+
 2. Verify it was added.
+
 3. Add an iPhone accessory to the basket.
+
 4. Verify the total price is as expected.
 
 
