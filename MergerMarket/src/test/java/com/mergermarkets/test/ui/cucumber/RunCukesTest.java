@@ -19,7 +19,6 @@ import org.junit.runner.RunWith;
 
 public class RunCukesTest {
 
-
     @BeforeClass
     public static void setup() {
         Driver.initialiseDriver();
@@ -30,5 +29,4 @@ public class RunCukesTest {
     public static void teardown() {
         Driver.quitDriver();
     }
-
 }

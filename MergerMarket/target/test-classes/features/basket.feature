@@ -1,17 +1,16 @@
-
+@search
 Feature: Basket
   As a  customer I Should be able to search and add items to the basket
 
-  @search
- Scenario: Search for an iPhone and add the cheapest phone to the basket
-
+ Scenario: Add Cheapest IPhone to the basket
     Given I am on the Amazon page
-    When I search for "iphone 6"
-    And  I add the cheapest "iPhone 64GB Unlocked" to the basket
-    Then I assert that the item is added to the basket
+    When I search for the cheapest "IPhone 4s"
+    And I add "IPhone 4s" to the basket
+    Then I assert the basket has been updated
 
 
   Scenario: Add an iPhone accessory to the basket
     Given I am on the Amazon page
-    When I add "iPhone accessory" to my basket
-    Then I assert the basket total has been updated
+    And  I search for the cheapest "iPhone accessory"
+    When I add "iPhone accessory" to the basket
+    Then I assert the total amount in the basket
