@@ -1,4 +1,4 @@
-= Amazon Cucumber Test Suite
+= MergerMarket Cucumber Test Suite
 
 == Introduction
 
@@ -17,19 +17,19 @@ Create a simple project using any open source tools, to test the following:
 
 
 
-com.mergermarkets.test.ui.cucumber : Cucucmber classes RunCkes and Hook
+com.mergermarkets.test.ui.cucumber : Cucucmber classes -Hooks and RunCukesTest(This  class is used to run the tests)
 
-com.mergermarkets.test.ui.stepdefinitions : The step definiton Class
+com.mergermarkets.test.ui.stepdefinitions : The BasketStepDefinition Class with implementation of the steps 
 
 com.mergermarkets.test.ui.support :Driver initialization and Launch the page
 
-com.mergermarkets.test.ui.pages : The Basket and Search pages
+com.mergermarkets.test.ui.pages : The Basket and Search pages.
 
-src/test/resources/features : Where the feature file with scenarios resides
+src/test/resources/features : Where the feature file with scenarios resides, There are 2 scenarios as per requirements.
 
 == Prerequisites
 
-Firefox version 43.0 (Been having some issues with driver version 2.53.1 and FF driver 48 the version 43 seems most reliable)
+Firefox version 43.0 (Been having some issues with driver version 2.53.1 running on FF driver 46. The version 43 seems most reliable)
 
 == Command Line
 
